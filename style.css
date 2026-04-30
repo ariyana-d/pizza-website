@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: #f7f5f2;
+    color: #2f2a2a;
+    text-align: center;
+    background-image: url("pawpattern.png");
+    background-repeat: repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+nav {
+    width: 100%;
+    background: #ffffff;
+    border-bottom: 1px solid #e6e1dc;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 12px;
+    color: #5c5c5c;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    color: #a67c52;
+}
+
+
+section {
+    background: #ffffff;
+    width: 90%;
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+    text-align: left;
+}
+
+.gallery-section {
+    width: 95%;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+}
+
+
+p {
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5c5c5c;
+    transition: all 0.2s ease;
+}
+
+
+nav a:visited {
+    color: #5c5c5c;
+}
+
+nav a:hover {
+    color: #a67c52;
+}
+
+nav a:active {
+    color: #b08cff;
+    text-shadow: 0 0 10px #b08cff, 0 0 20px #b08cff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 12px;
+}
+
+.gallery-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.gallery-section img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.final-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+.final-gallery img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background: #e6e1dc;
+    padding: 10px;
+}
+
+td {
+    border-bottom: 1px solid #e6e1dc;
+    padding: 10px;
+}
+
+tr:nth-of-type(even) {
+    background: #faf8f6;
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    background-image: url("paw.png");
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    background-position: 0 50%;
+    padding-left: 34px;
+    margin-bottom: 10px;
+}
+
+
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: 13px;
+    color: #6b625a;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+
+
+video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 12px;
+}
